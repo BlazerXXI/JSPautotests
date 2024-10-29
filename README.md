@@ -1,29 +1,46 @@
-JS + Playwright Test Framework
+# Playwright Test Framework
+
+![Logo](url_to_logo)
+
+## Overview
+
 This project is a basic framework for writing automated tests using Playwright. It includes tests for both API and UI.
 
-Installation
-Clone the repository:
+## Features
 
-Use the command git clone to copy the repository to your local machine.
-Navigate to the project directory.
-Install dependencies:
+- API testing
+- UI testing
+- Allure reporting
+- Jenkins integration
 
-Run the command npm install to install all necessary packages.
-Install Playwright browsers:
+## Technologies Used
 
-Execute the command npx playwright install to download the browsers needed to run the tests.
+- [Playwright](https://playwright.dev) - A Node.js library for automating browsers
+- [Allure](https://docs.qameta.io/allure/) - Reporting tool for test results
+
+## Installation
+
+To install the project, run:
+
+```bash
+npm install
+Then, install the required Playwright browsers:
+
+bash
+npx playwright install
 Running Tests
 To run all tests, use the command:
 
+bash
 npx playwright test
 To run a specific test:
 
+bash
 npx playwright test path/to/your/test.spec.js
-Allure Reports (if used)
-Generating reports:
-Run the command allure serve allure-results to compile and view Allure reports.
-Jenkins Integration
-To automate tests in Jenkins, create a new job and add the necessary build steps as described in the Jenkins documentation.
+Reports
+To generate Allure reports, run:
 
+bash
+allure serve allure-results
 Contribution
 Please create pull requests to improve the project.
