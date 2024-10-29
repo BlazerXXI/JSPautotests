@@ -24,23 +24,28 @@ To install the project, run:
 
 ```bash
 npm install
+```
 Then, install the required Playwright browsers:
 
-bash
+```bash
 npx playwright install
+```
 Running Tests
 To run all tests, use the command:
 
-bash
+```bash
 npx playwright test
+```
 To run a specific test:
 
-bash
+```bash
 npx playwright test path/to/your/test.spec.js
+```
 Reports
 To generate Allure reports, run:
 
-bash
+```bash
 allure serve allure-results
+```
 Contribution
 Please create pull requests to improve the project.
