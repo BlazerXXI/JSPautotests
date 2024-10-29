@@ -1,7 +1,5 @@
 # Playwright Test Framework
 
-![Logo](url_to_logo)
-
 ## Overview
 
 This project is a basic framework for writing automated tests using Playwright. It includes tests for both API and UI.
