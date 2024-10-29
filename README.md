@@ -4,7 +4,7 @@ This project is a basic framework for writing aut tests using PlayWright. Includ
 
 ## Installation
 
-1. **Клонируйте репозиторий**:
+1. **Clon the repository**:
    <!-- bash -->
    git clone https://github.com/blazerxxi/JSPautotests.git
    cd JSPautotests
